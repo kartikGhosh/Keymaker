@@ -19,7 +19,7 @@ class keymaker():
 		knight = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
 
 		for i in range(count):
-			print('-'.join(''.join(random.choice(knight) for _ in range(3)) for _ in range(5)))
+			print('-'.join(''.join(random.choice(knight) for _ in range(5)) for _ in range(5)))
 # Our loop used to iterate through the range of our count parameter, and print our keys to the console
 ## in sequences of 5 letters/numbers.
 
